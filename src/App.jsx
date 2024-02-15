@@ -20,13 +20,13 @@ export default function App() {
         <img src={Logo} alt="logo" />
         <img src={LeftHamburger} alt="hamburger" />
       </nav>
-      <section className="h-[90vh] overflow-y-hidden flex justify-between items-center max-md:flex-col-reverse">
+      <section className="h-[90vh] overflow-y-hidden flex justify-between items-center max-xl:flex-col-reverse">
         <div className="flex-1 flex flex-col h-full">
-          <div className="mx-1 md:mx-0 relative md:-top-20 text-center md:text-justify flex-1 flex justify-center min-sm:items-center flex-col w-full gap-4 md:gap-7 md:pl-20">
+          <div className="mx-1 md:mx-0 relative md:-top-20 text-center md:text-justify flex-1 flex justify-center max-sm:items-center flex-col w-full gap-4 md:gap-7 md:pl-20">
             <h1 className="md:text-5xl font-overpass md:leading-normal font-bold">
               Mutual Investment
             </h1>
-            <p className="max-w-[100%] md:text-2xl text-slate-gray font-overpass md:leading-8 font-light">
+            <p className="max-w-[100%] md:text-2xl text-slate-gray font-overpass xl:leading-8 font-light">
               At Finance we care about your future. We help you invest the way
               you want. So you can relax, have fun and let your fund grow.
             </p>
@@ -37,7 +37,7 @@ export default function App() {
               Learn More
             </button>
           </div>
-          <div className="hidden md:block relative z-0">
+          <div className="hidden xl:block relative z-0">
             <img
               src={RectangleDot}
               alt="rectangleDot"

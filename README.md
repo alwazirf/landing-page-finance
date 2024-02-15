@@ -1,8 +1,24 @@
-# React + Vite
+# Finance Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I have created a beautiful modern Finance website landing page using React and Tailwind.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![alt text](public/assets/mobile.jpg)
+
+![alt text](public/assets/DekstopVersion.jpg)
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/alwazirf/landing-page-finance.git
+   ```
+2. Install PNPM packages
+   ```sh
+   pnpm install
+   ```
+3. Running this App
+   ```sh
+   pnpm run dev
+   ```
